@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { IoMenu, IoClose } from "react-icons/io5";
-import { useNavigate } from "react-router-dom"; // ✅ Import useNavigate
+
 
 function Examination() {
   const [menuOpen, setMenuOpen] = useState(false);
